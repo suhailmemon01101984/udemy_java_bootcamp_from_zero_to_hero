@@ -5,6 +5,10 @@ public class Employee {
     char gender;
 
     public Employee() {
+        this.firstName = "John";
+        this.lastName = "Doe";
+        this.age = 30;
+        this.gender = 'M';
         System.out.println("Object is getting created...");
     }
 
