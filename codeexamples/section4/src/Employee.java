@@ -4,6 +4,10 @@ public class Employee {
     byte age;
     char gender;
 
+    public Employee() {
+        System.out.println("Object is getting created...");
+    }
+
     public byte getAge() {
         return age;
     }
@@ -11,4 +15,6 @@ public class Employee {
     public char getGender() {
         return gender;
     }
+
+
 }
