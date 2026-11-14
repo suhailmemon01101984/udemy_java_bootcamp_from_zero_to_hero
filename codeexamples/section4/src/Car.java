@@ -3,4 +3,13 @@ public class Car {
     String color;
     int horsePower;
 
+    public void startCar() {
+        System.out.println("Vehicle started...");
+    }
+
+    public String stopCar() {
+        String output = "Vehical stopped...";
+        return output;
+    }
+
 }
