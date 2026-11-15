@@ -5,11 +5,12 @@ public class Employee {
     char gender;
 
     public Employee() {
-        this.firstName = "John";
-        this.lastName = "Doe";
-        this.age = 30;
-        this.gender = 'M';
-        System.out.println("Object is getting created...");
+//        this.firstName = "John";
+//        this.lastName = "Doe";
+//        this.age = 30;
+//        this.gender = 'M';
+        this("Will", "Smith", (byte)55, 'M');
+        System.out.println("Object is getting created in default constructor...");
     }
 
     public Employee(String firstName, String lastName, byte age, char gender) {
@@ -17,6 +18,7 @@ public class Employee {
         this.lastName = lastName;
         this.age = age;
         this.gender = gender;
+        System.out.println("Object is getting created in overloaded constructor...");
     }
 
     public byte getAge() {

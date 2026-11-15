@@ -6,6 +6,7 @@ public class EmployeeMain {
         Employee employee2 = new Employee("Max", "Steve", (byte)25, 'F');
 //        Employee employee1 = new Employee();
 //        Employee employee2 = new Employee();
+        Employee employee3 = new Employee();
 //        employee.firstName = "John";
 //        employee.lastName = "Doe";
 //        employee.age = 30;
