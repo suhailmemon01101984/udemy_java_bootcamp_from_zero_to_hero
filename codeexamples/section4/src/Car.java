@@ -2,7 +2,7 @@ public class Car {
     String model;
     String color;
     int horsePower;
-    static byte noOfWheels=4;
+    static final byte NO_OF_WHEELS=4;
 
 
     {
