@@ -4,7 +4,8 @@ public class NullDemo {
         int number;
         String myString = null;
         Employee employeeObject = null;
-        System.out.println(employeeObject.age);
+        //System.out.println(employeeObject.age);
+        System.gc();
 
     }
 }
