@@ -2,6 +2,8 @@ public class Car {
     String model;
     String color;
     int horsePower;
+    static byte noOfWheels=4;
+
 
     {
 //        this.model = "Camry";

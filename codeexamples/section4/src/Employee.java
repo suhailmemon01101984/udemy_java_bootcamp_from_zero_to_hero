@@ -3,6 +3,7 @@ public class Employee {
     String lastName;
     byte age;
     char gender;
+    static String employerName = "Google";
 
     public Employee() {
 //        this.firstName = "John";
