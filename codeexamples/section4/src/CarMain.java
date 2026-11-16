@@ -2,6 +2,7 @@ public class CarMain {
 
     static {
         System.out.println("static block from the same class: CarMain"); // this proves that static initialization block runs before main
+        //System.exit(0); // this proves that main will not be invoked at all. it will simply exit here.
     }
 
     public static void main(String[] args) {
