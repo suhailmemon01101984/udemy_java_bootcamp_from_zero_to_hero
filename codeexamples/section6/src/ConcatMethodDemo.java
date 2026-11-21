@@ -8,6 +8,10 @@ public class ConcatMethodDemo {
         hello1 = hello1.concat(" ").concat("World");
         System.out.println(hello1);
 
-        String emptyString ="";
+        String emptyString = "";
+        String nullString = null;
+
+        System.out.println(emptyString);
+        System.out.println(nullString);
     }
 }
