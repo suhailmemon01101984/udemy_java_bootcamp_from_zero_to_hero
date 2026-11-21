@@ -1,6 +1,11 @@
 public class StringPoolDemo {
     public static void main(String[] args) {
 
+        /*
+        first approach uses string pooling. the process of creating an object instide the string pool is called string interning
+        saves memory as well as execution time
+         */
+
         String hello = "hello";
         String hi = "hello";
         String hey = "hey";
