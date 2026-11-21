@@ -7,5 +7,7 @@ public class ConcatMethodDemo {
         String hello1 = "Hello";
         hello1 = hello1.concat(" ").concat("World");
         System.out.println(hello1);
+
+        String emptyString ="";
     }
 }
