@@ -5,6 +5,7 @@ public class ChangeCaseDemo {
 
         String originalString = "Java";
         String upperCaseString = originalString.toUpperCase();
+        String upperCaseStringGermanLocale = originalString.toUpperCase(Locale.GERMAN);
         String lowerCaseString = originalString.toLowerCase();
         String specialString = "Java1@Best";
         String specialUpperCaseString = specialString.toUpperCase();
