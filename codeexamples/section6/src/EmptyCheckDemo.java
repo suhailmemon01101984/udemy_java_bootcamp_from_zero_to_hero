@@ -11,5 +11,8 @@ public class EmptyCheckDemo {
         //boolean isEmptyNull = nullString.isEmpty(); /*causes null pointer exception*/
         //boolean isNullLengthZero = nullString.length()==0;/*causes null pointer exception*/
 
+        String blankString = "               ";
+        boolean isBlankEmpty = blankString.isEmpty();
+        boolean isBlankBlank = blankString.isBlank();
     }
 }
