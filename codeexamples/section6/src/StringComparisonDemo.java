@@ -14,5 +14,15 @@ public class StringComparisonDemo {
 
         boolean b6 = str4.equals(str5);
         boolean b7 = str4.equalsIgnoreCase(str5);
+
+        int comparison1 = "java".compareTo("java");
+        int comparison2 = "java".compareTo("python"); //reason it's -6 because position of j minus position of p = -6
+        int comparison3 = "python".compareTo("java"); //reason it's 6 because position of p minus position of j = 6
+
+
+
+
+
+
     }
 }
