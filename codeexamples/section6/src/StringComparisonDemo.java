@@ -19,10 +19,5 @@ public class StringComparisonDemo {
         int comparison2 = "java".compareTo("python"); //reason it's -6 because position of j minus position of p = -6
         int comparison3 = "python".compareTo("java"); //reason it's 6 because position of p minus position of j = 6
 
-
-
-
-
-
     }
 }
