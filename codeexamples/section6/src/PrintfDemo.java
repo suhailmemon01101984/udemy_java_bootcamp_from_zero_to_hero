@@ -6,5 +6,7 @@ public class PrintfDemo {
         System.out.printf("Price: %.2f%n",19.99);//.2 is to display 2 decimal places. %n explanation is above
         System.out.printf("Grade: %c%n",'A');
         System.out.printf("Is java fun?: %b%n",true);
+        System.out.print("Sample string value");//in print unlike println, cursor doesn't move to next line after printing
+        System.out.print("Another string value");
     }
 }
