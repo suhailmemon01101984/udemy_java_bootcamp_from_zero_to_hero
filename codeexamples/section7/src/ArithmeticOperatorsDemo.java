@@ -9,5 +9,7 @@ public class ArithmeticOperatorsDemo {
         double num5 = 3.14;
         byte num6 = 3;
         num4 = num5 + num6; //byte + double results in double. num4 is double so resulting sum becomes double and stored inside num4. if you make num4 int then this expression will fail because you are going to try to assign a double value to an int. so until you do an explicit cast to an int using (int) you will get a failure.
+        int result1 = 9/2;
+        float result2 = 27/2.0f;
     }
 }
