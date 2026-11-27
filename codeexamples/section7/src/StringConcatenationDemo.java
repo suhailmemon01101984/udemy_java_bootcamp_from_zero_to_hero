@@ -13,5 +13,8 @@ public class StringConcatenationDemo {
         //String output6 = b + num1 + num2 + str1; //fails coz you cannot do arithmetic operation starting with a boolean
         String output6 = b + (num1 + num2 + str1); //succeeds because stuff inside parantheses gets eval'ed first. so answer is false6 goals
         String output7 = "" + b + num1 + num2 + str1; //works same as above coz now due to the "" which is left most this becomes a string concatenation operation
+        String str2 = null;
+        String str3 = 6 + str2; //6null
+        String str4 = "goals" + str2; //goalsnull
     }
 }
