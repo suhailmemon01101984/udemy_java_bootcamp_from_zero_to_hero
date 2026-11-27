@@ -12,6 +12,9 @@ public class ArithmeticOperatorsDemo {
         int result1 = 9/2;
         float result2 = 27/2.0f;
         int result3 = 21%2;
-
+        byte num7 = 9;
+        byte num8 = 3;
+        //num7 = +num8; // results in compilation error because =+ converts the evaluated value on right to int and you can't assign an int to byte without doing casting
+        num7 = (byte) +num8; //works because you did the casting
     }
 }
