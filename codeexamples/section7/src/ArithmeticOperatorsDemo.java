@@ -19,5 +19,9 @@ public class ArithmeticOperatorsDemo {
         byte num9 = 9;
         byte num10 = 3;
         num7 = (byte) -num8;
+        int num12 = 42;
+        num12 += 3.3; //45 because internally java does this: num12 = (int) (num12 + 3.3)
+        String str = "hello";
+        str += 9;
     }
 }
