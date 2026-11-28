@@ -16,5 +16,8 @@ public class ArithmeticOperatorsDemo {
         byte num8 = 3;
         //num7 = +num8; // results in compilation error because =+ converts the evaluated value on right to int and you can't assign an int to byte without doing casting
         num7 = (byte) +num8; //works because you did the casting
+        byte num9 = 9;
+        byte num10 = 3;
+        num7 = (byte) -num8;
     }
 }
