@@ -23,5 +23,9 @@ public class ArithmeticOperatorsDemo {
         num12 += 3.3; //45 because internally java does this: num12 = (int) (num12 + 3.3)
         String str = "hello";
         str += 9;
+        int num14 = 45;
+        int num15 = 4;
+        //num15 = num14++ + 5; //num15 first becomes 50 and then num14 becomes 46
+        num15 = ++num14 + 5; //num14 becomes 46 first and then num15 becomes 51
     }
 }
